@@ -24,6 +24,12 @@ namespace SubjectApplication
 
             Console.Write("\tУспешно. Ввод массива...\n");
             Plan = SubjectUtil.FillMassive(length);
+            Console.Write("\n\tУспешно. Вывод массива...\n");
+            foreach (Subject subject in Plan)
+            {
+                Console.WriteLine(string.Format("{0} {1} {2}", subject.DisciplineName, subject.TeacherLastName, subject.Semester));
+            }
+
 
             Console.Write("\n\tУспешно. Сортировка...\n");
             foreach (Subject subject in SubjectUtil.Sort(Plan))
