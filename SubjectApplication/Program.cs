@@ -7,7 +7,6 @@ namespace SubjectApplication
         static void Main(string[] args)
         {
             Console.WriteLine("Hello World!");
-
         }
     }
 }
