@@ -1,17 +1,13 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace SubjectApplication
+﻿namespace SubjectApplication
 {
     class Subject
     {
 
-        private string DisciplineName { get; set; }
+        public string DisciplineName { get; set; }
 
-        private string TeacherLastName { get; set; }
+        public string TeacherLastName { get; set; }
 
-        private short Semester { get; set; }
+        public short Semester { get; set; }
 
     }
 }
